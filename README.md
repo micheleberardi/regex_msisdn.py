@@ -15,20 +15,20 @@ optional arguments:
 ```
 
 # EXAMPLE
+The example below will check into all files on May 2020
 
 ```
-$ python regex_msisdn.py -p logs/proxy_202005* <<< path with wildcard file for example check all logs on May 2020
+$ python regex_msisdn.py -p logs/proxy_202005* 
 
 ```
-# EXAMPLE LOGS
+# EXAMPLE LOG FILE
 ```
 Sun, 03 May 2020 07:01:54 INFO     FOUND THIS CASE2020-05-01 00:16:57 (18930) [INF] [MONIT][DURATION:0.052103042602539][MSISDN:34XXXXXXXXX][XXXX_API:rechargeUserNew][userKey:'Pdsdkxxxxxxxxxx'][storeNetworkId:600000][domainId:'10'][realmId:'11'][datasource:'12'][realsource:'18'][RES:'{"userKey":"Pdsdkxxxxxxxxxx","action":"rechargeUserNew","result":"-1","message":"Not authorized user"}']
 
 ```
 
-# CONDICTION OF THIS SCRIPT
+# CONDITIONS OF THIS SCRIPT
 
-the script need to return all MSISDN where if a raw have these condcition below
 ```
 if "Not authorized user" in line and "MSISDN:3" in line and "rechargeUserNew" in line:
 ```
