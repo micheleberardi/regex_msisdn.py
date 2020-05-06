@@ -1,4 +1,4 @@
-# HOW USE THE COMMAND
+# HOW TO USE THE COMMAND
 
 ```
 michelone$ python regex_msisnd.py --help
