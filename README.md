@@ -30,7 +30,7 @@ Sun, 03 May 2020 07:01:54 INFO     FOUND THIS CASE2020-05-01 00:16:57 (18930) [I
 # CONDITIONS OF THIS SCRIPT
 
 ```
-if "Not authorized user" in line and "MSISDN:3" in line and "rechargeUserNew" in line:
+if "Not authorized user" in logs and "MSISDN:3" in logs and "rechargeUserNew" in logs:
 ```
 then need to execute this regex rule
 ```
