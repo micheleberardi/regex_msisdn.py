@@ -15,7 +15,7 @@ optional arguments:
 ```
 
 # EXAMPLE
-The example below will check into all files on May 2020
+The example below will check into all files of May 2020
 
 ```
 $ python regex_msisdn.py -p logs/proxy_202005* 
